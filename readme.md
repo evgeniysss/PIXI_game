@@ -1,6 +1,6 @@
 # Pixi Game
 
-![Screenshot of game](img/screenshot.jpg)
+![Screenshot of game](./img/screenshot.jpg)
 
 ## Run
 
