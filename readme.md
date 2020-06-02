@@ -5,6 +5,6 @@
 ## Run
 
 ```
-Open link in your browser:
+Open file "index.html" in yout browser.
 
 ```
