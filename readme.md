@@ -1,6 +1,6 @@
 # Pixi Game
 
-![Screenshot of game](./img/screenshot.jpg)
+![Screenshot of game](https://github.com/evgeniysss/PIXI_game/blob/master/img/screenshot.jpeg)
 
 ## Run
 
