@@ -1,11 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    lang="en" xml:lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>PIXI game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.0/pixi.min.js"></script>
+<link href="./styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Start</h1>
+    <div id="main-game-container">
+        <div id="shapes-counter"></div>
+        <div id="surface-area-counter"></div>
+
+        <div id="creation-interval">
+            <a href="#" id="creation-interval-minus">-</a>
+            <a href="#" id="creation-interval-plus">+</a>
+
+            <span id="creation-interval-val">0</span>
+        </div>
+
+        <div id="gravity">
+            <a href="#" id="gravity-minus">-</a>
+            <a href="#" id="gravity-plus">+</a>
+            
+            <span id="gravity-val">0</span>
+        </div>
+
+    <div id="render-zone"></div>
+</div>
+<script src="js/index.js"></script>
 </body>
 </html>
